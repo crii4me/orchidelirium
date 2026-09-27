@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-label="Illustration of a vanilla orchid vine with a seed pod">
+  <defs>
+    <radialGradient id="va-petal" cx="50%" cy="40%" r="70%">
+      <stop offset="0%" stop-color="#fbf7e6"/>
+      <stop offset="100%" stop-color="#dfe4c4"/>
+    </radialGradient>
+  </defs>
+
+  <!-- climbing vine -->
+  <path d="M18 232 C 30 190 26 150 44 116 C 62 82 96 66 130 58" fill="none" stroke="#5c6b46" stroke-width="5" stroke-linecap="round"/>
+  <!-- aerial root -->
+  <path d="M44 116 C 32 128 28 144 32 160" fill="none" stroke="#b9b394" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- thick succulent leaves -->
+  <path d="M40 132 C 18 128 6 146 10 172 C 34 172 44 154 40 132 Z" fill="#7f9268"/>
+  <path d="M56 96  C 76 82 100 90 106 112 C 82 122 62 116 56 96 Z" fill="#8ea277"/>
+
+  <!-- seed pods, the "beans" -->
+  <path d="M96 128 C 112 140 128 168 132 204 C 126 208 120 208 114 204 C 108 168 98 146 88 134 Z" fill="#5b4a33"/>
+  <path d="M116 122 C 134 134 150 162 154 198 C 148 202 142 202 136 198 C 130 162 118 140 108 128 Z" fill="#6d5a3f"/>
+  <g stroke="#3f3324" stroke-width=".9" fill="none" opacity=".6">
+    <path d="M100 138 C 112 158 120 180 122 202"/>
+    <path d="M120 132 C 132 152 140 174 142 196"/>
+  </g>
+
+  <!-- pale green flower, open for one day only -->
+  <g transform="translate(168 66)">
+    <ellipse cx="0"   cy="-34" rx="10" ry="26" fill="url(#va-petal)" stroke="#b9c49a" stroke-width="1"/>
+    <ellipse cx="-30" cy="-12" rx="10" ry="26" fill="url(#va-petal)" stroke="#b9c49a" stroke-width="1" transform="rotate(-58 -30 -12)"/>
+    <ellipse cx="30"  cy="-12" rx="10" ry="26" fill="url(#va-petal)" stroke="#b9c49a" stroke-width="1" transform="rotate(58 30 -12)"/>
+    <ellipse cx="-24" cy="20"  rx="9"  ry="24" fill="url(#va-petal)" stroke="#b9c49a" stroke-width="1" transform="rotate(-28 -24 20)"/>
+    <ellipse cx="24"  cy="20"  rx="9"  ry="24" fill="url(#va-petal)" stroke="#b9c49a" stroke-width="1" transform="rotate(28 24 20)"/>
+    <path d="M0 -6 C 20 -6 28 12 22 30 C 14 46 -14 46 -22 30 C -28 12 -20 -6 0 -6 Z" fill="#f4ecc9" stroke="#cdc496" stroke-width="1"/>
+    <path d="M0 -10 C 8 -10 12 0 10 10 C 6 18 -6 18 -10 10 C -12 0 -8 -10 0 -10 Z" fill="#e8d9a0"/>
+  </g>
+  <path d="M130 58 C 144 56 154 52 160 44" fill="none" stroke="#5c6b46" stroke-width="4" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,11 @@
+# Watermarked stock previews. These are unlicensed comps — the watermark is
+# printed across the image — so they are kept out of the repo rather than
+# published. Drop in licensed, unwatermarked copies and delete these two
+# lines to start tracking them.
+assets/img/empty_1.jpg
+assets/img/vanilla_2.jpg
+
+# OS cruft
+Thumbs.db
+desktop.ini
+.DS_Store

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 240" role="img" aria-label="A pressed sprig of leaves">
+  <path d="M60 236 C 58 180 58 110 62 12" fill="none" stroke="#7f9268" stroke-width="3" stroke-linecap="round"/>
+  <g fill="#97a97c">
+    <path d="M61 40  C 44 26 26 26 12 36  C 26 52 48 54 61 40 Z"/>
+    <path d="M61 72  C 78 58 96 58 110 68 C 96 84 74 86 61 72 Z" fill="#8ea277"/>
+    <path d="M60 108 C 43 94 25 94 11 104 C 25 120 47 122 60 108 Z"/>
+    <path d="M60 142 C 77 128 95 128 109 138 C 95 154 73 156 60 142 Z" fill="#8ea277"/>
+    <path d="M59 178 C 42 164 24 164 10 174 C 24 190 46 192 59 178 Z"/>
+  </g>
+  <g fill="none" stroke="#5c6b46" stroke-width=".9" opacity=".55">
+    <path d="M58 40 L 16 37"/><path d="M64 72 L 106 69"/>
+    <path d="M57 108 L 15 105"/><path d="M63 142 L 105 139"/>
+    <path d="M56 178 L 14 175"/>
+  </g>
+</svg>

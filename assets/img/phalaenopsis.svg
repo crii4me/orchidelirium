@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-label="Illustration of a moth orchid flower">
+  <defs>
+    <radialGradient id="ph-petal" cx="50%" cy="42%" r="66%">
+      <stop offset="0%" stop-color="#fffafc"/>
+      <stop offset="100%" stop-color="#f7cfe1"/>
+    </radialGradient>
+    <radialGradient id="ph-lip" cx="50%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#f2b3cd"/>
+      <stop offset="100%" stop-color="#d2789f"/>
+    </radialGradient>
+  </defs>
+
+  <!-- stem -->
+  <path d="M120 168 C 122 196 118 214 104 236" fill="none" stroke="#97a97c" stroke-width="5" stroke-linecap="round"/>
+  <path d="M118 206 C 100 198 88 200 76 210 C 92 218 108 216 118 206 Z" fill="#97a97c"/>
+
+  <!-- lateral sepals -->
+  <ellipse cx="80" cy="168" rx="25" ry="38" fill="url(#ph-petal)" stroke="#e5a6c1" stroke-width="1.2" transform="rotate(30 80 168)"/>
+  <ellipse cx="160" cy="168" rx="25" ry="38" fill="url(#ph-petal)" stroke="#e5a6c1" stroke-width="1.2" transform="rotate(-30 160 168)"/>
+
+  <!-- dorsal sepal -->
+  <ellipse cx="120" cy="62" rx="26" ry="38" fill="url(#ph-petal)" stroke="#e5a6c1" stroke-width="1.2"/>
+
+  <!-- petals -->
+  <ellipse cx="60" cy="102" rx="50" ry="39" fill="url(#ph-petal)" stroke="#e5a6c1" stroke-width="1.2" transform="rotate(-16 60 102)"/>
+  <ellipse cx="180" cy="102" rx="50" ry="39" fill="url(#ph-petal)" stroke="#e5a6c1" stroke-width="1.2" transform="rotate(16 180 102)"/>
+
+  <!-- veining -->
+  <g stroke="#e9b8ce" stroke-width="1" fill="none" opacity=".85">
+    <path d="M96 108 C 76 100 58 98 20 100"/>
+    <path d="M96 114 C 76 116 56 122 26 132"/>
+    <path d="M144 108 C 164 100 182 98 220 100"/>
+    <path d="M144 114 C 164 116 184 122 214 132"/>
+    <path d="M120 96 L 120 34"/>
+  </g>
+
+  <!-- labellum: side lobes + mid lobe + tendrils -->
+  <ellipse cx="98" cy="150" rx="17" ry="22" fill="url(#ph-lip)" transform="rotate(-28 98 150)"/>
+  <ellipse cx="142" cy="150" rx="17" ry="22" fill="url(#ph-lip)" transform="rotate(28 142 150)"/>
+  <path d="M120 138 C 134 142 138 158 130 172 C 126 180 114 180 110 172 C 102 158 106 142 120 138 Z" fill="url(#ph-lip)"/>
+  <path d="M113 172 C 104 182 96 184 88 180" fill="none" stroke="#d2789f" stroke-width="3" stroke-linecap="round"/>
+  <path d="M127 172 C 136 182 144 184 152 180" fill="none" stroke="#d2789f" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- column -->
+  <path d="M120 108 C 129 108 133 118 131 130 C 129 138 111 138 109 130 C 107 118 111 108 120 108 Z" fill="#f0e6c8" stroke="#d9c79a" stroke-width="1"/>
+  <circle cx="120" cy="118" r="5" fill="#e8c25f"/>
+</svg>

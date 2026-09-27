@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-label="Illustration of a dancing-lady orchid spray">
+  <defs>
+    <g id="on-bloom">
+      <!-- skirt -->
+      <path d="M0 4 C 22 6 34 26 30 46 C 20 40 -20 40 -30 46 C -34 26 -22 6 0 4 Z" fill="#f2c94c"/>
+      <path d="M0 10 C 14 12 22 24 20 36 C 12 32 -12 32 -20 36 C -22 24 -14 12 0 10 Z" fill="#fbe6a4"/>
+      <!-- upper petals & sepals -->
+      <ellipse cx="-16" cy="-14" rx="12" ry="8" fill="#e8b23c" transform="rotate(-32 -16 -14)"/>
+      <ellipse cx="16"  cy="-14" rx="12" ry="8" fill="#e8b23c" transform="rotate(32 16 -14)"/>
+      <ellipse cx="0"   cy="-22" rx="8"  ry="11" fill="#e8b23c"/>
+      <!-- crest -->
+      <circle cx="0" cy="0" r="5.5" fill="#8f4062"/>
+      <circle cx="-8" cy="-2" r="2.6" fill="#8f4062"/>
+      <circle cx="8"  cy="-2" r="2.6" fill="#8f4062"/>
+    </g>
+  </defs>
+
+  <!-- arching branched spike -->
+  <g fill="none" stroke="#5c6b46" stroke-width="4" stroke-linecap="round">
+    <path d="M28 236 C 34 180 46 128 76 92 C 104 58 150 40 206 34"/>
+    <path d="M64 118 C 82 106 104 104 124 110"/>
+    <path d="M92 78 C 112 74 132 78 148 90"/>
+    <path d="M140 50 C 158 52 172 62 182 76"/>
+  </g>
+
+  <!-- pseudobulb & leaves -->
+  <ellipse cx="26" cy="222" rx="20" ry="26" fill="#97a97c"/>
+  <path d="M26 200 C 12 168 6 136 10 104 C 24 138 32 170 30 200 Z" fill="#7f9268"/>
+  <path d="M28 200 C 46 172 62 152 84 138 C 68 168 50 188 34 202 Z" fill="#8ea277"/>
+
+  <use href="#on-bloom" transform="translate(200 42) rotate(6)"/>
+  <use href="#on-bloom" transform="translate(124 118) rotate(-8) scale(.92)"/>
+  <use href="#on-bloom" transform="translate(150 98) rotate(4) scale(.86)"/>
+  <use href="#on-bloom" transform="translate(184 84) rotate(-4) scale(.8)"/>
+  <use href="#on-bloom" transform="translate(96 152) rotate(-12) scale(.7)"/>
+</svg>
